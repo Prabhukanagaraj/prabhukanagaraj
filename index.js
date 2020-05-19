@@ -8,7 +8,7 @@ function renderEverything() {
 }
 
 function fetchKPokemon(name) {
-    var userName = name;
+    var userName = name.toLowerCase();
     fetch('https://pokeapi.co/api/v2/pokemon?limit=100')
         .then(response => response.json())
         .then(function (allpokemon) {
