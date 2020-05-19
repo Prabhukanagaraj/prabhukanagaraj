@@ -1,0 +1,26 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#container {
+    margin: auto;
+}
+
+#poke-container {
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+}
+
+#header-text{
+    margin: 0 auto;
+} 
+
+#generate-pokemon {
+    margin: 0 auto;
+}
+
+#userName{
+    margin: 0 auto;
+}
